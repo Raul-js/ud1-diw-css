@@ -1,0 +1,35 @@
+/**
+* estilo1.css
+* Hoja de estilos para diseño liquido
+*/
+body {
+	font-family: Arial, Verdana;
+	font-size: 12pt;
+	}
+	
+#cabecera {
+	background: red;
+	padding: 15px;
+	}
+	
+#central {
+	width: 65%;
+}
+
+#lateral {
+	float: right;
+	top: 70px;
+	right: 0px;
+	width: 30%;
+	height: 100%;
+	background: gray;
+	}
+/**
+* El pie ocupará toda la anchura, pero se podría poner
+* con la misma anchura que el div central#
+*/	
+#pie {
+	clear: both;
+	text-align: center;
+	background-color: green;
+	}

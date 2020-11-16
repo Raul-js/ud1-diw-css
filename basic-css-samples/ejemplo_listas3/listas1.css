@@ -1,0 +1,45 @@
+/** 
+* Hoja de estilos para listas1.html 
+*/ 
+#container { 
+	margin: 0 auto 0 auto; 
+	width: 800px;	 
+} 
+
+#cabecera { 
+height: 200px; 
+width: 100%; 
+background-color: red; 
+border: 1px solid orange; 
+} 
+
+#listaseguida { 
+	list-style: none; 
+} 
+
+#listaseguida li { 
+	display: inline; 
+	margin-left: 2px; 
+	border: 1px solid black; 
+	background-color: green; 
+	color: white; 
+ } 
+
+#principal { 
+margin-top: 2px; 
+margin-left: auto; 
+margin-right: auto; 
+background-color: white; 
+border: 1px dashed gray; 
+margin-bottom: 10px; 
+} 
+
+#pie { 
+width: 100%; 
+height: 60px; 
+bottom: 0px; 
+margin-top: 2px; 
+background-color: lightBlue; 
+border: 1px solid blue; 
+clear: both; 
+}

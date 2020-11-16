@@ -1,0 +1,30 @@
+/** 
+* Hoja de estilos 
+* para mostrar algunas propiedades del modelo de caja 
+*/ 
+#divespecial { 
+	width: 200px; 
+	background-color: lightGrey; 
+	border: 1px solid red;	 
+} 
+
+#pespecial { 
+	width: 300px; 
+	background-color: white; 
+	border: 1px dashed green;	 
+} 
+
+#otroespecial { 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 300px; 
+	background-color: white; 
+	border: 1px dotted gray;	 
+} 
+
+span { 
+	margin-right: 10px; 
+	background-color: gray; 
+	color: white; 
+	border: 1px solid black;	 
+}
